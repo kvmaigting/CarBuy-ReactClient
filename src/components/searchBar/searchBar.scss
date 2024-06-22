@@ -1,0 +1,35 @@
+@import "../../responsive.scss";
+.searchBar {
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px;
+
+        
+
+        input {
+            border: 1px solid #999;
+            padding: 0px 10px;
+            height: 64px;
+            
+
+            @include lg {
+                padding: 0px 5px;
+            }
+        }
+
+        button {
+            border: none;
+            height: 64px;
+            cursor: pointer;
+            background-color: #fece51;
+            
+            i {
+                font-size: 40px;
+                color: white;
+            }
+        }
+    }
+}
