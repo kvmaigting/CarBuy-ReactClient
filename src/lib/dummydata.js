@@ -9,8 +9,8 @@ export const listData = [
     make: "Toyota",
     mileage: 21000,
     transmission: "AT",
-    latitude: 51.5074,
-    longitude: -0.1278,
+    latitude: 14.5995,
+    longitude: 120.9842,
   },
   {
     id: 2,
@@ -22,8 +22,8 @@ export const listData = [
     make: "Toyota",
     mileage: 41000,
     transmission: "MT",
-    latitude: 53.4808,
-    longitude: -2.2426,
+    latitude: 15.5995,
+    longitude: 120.9842,
   },
   {
     id: 3,
@@ -35,8 +35,8 @@ export const listData = [
     make: "Toyota",
     mileage: 500000,
     transmission: "AT",
-    latitude: 53.8008,
-    longitude: -1.5491,
+    latitude: 13.5995,
+    longitude: 121.9842,
   },
   {
     id: 4,
@@ -48,8 +48,8 @@ export const listData = [
     make: "Toyota",
     mileage: 11000,
     transmission: "AT",
-    latitude: 53.8008,
-    longitude: -1.5491,
+    latitude: 12.5995,
+    longitude: 120.9842,
   },
   {
     id: 5,
@@ -107,26 +107,27 @@ export const listData = [
 
 export const singlePostData = {
   id: 1,
-  title: "Beautiful Apartment",
-  price: 1200,
+  model: "Fortuner GRS",
+  make: "Toyota",
+  year: 2023,
+  price: 500000,
   images: [
-    "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://d1hv7ee95zft1i.cloudfront.net/custom/car-model-photo/original/2022-toyota-fortuner-exterior-quarter-front-philippines-62fefdab14b9b.webp",
+    "https://d1hv7ee95zft1i.cloudfront.net/custom/car-model-photo/original/2022-toyota-fortuner-wiper-controls-62feff13c4157.webp",
+    "https://d1hv7ee95zft1i.cloudfront.net/custom/car-model-photo/original/2022-toyota-fortuner-exterior-quarter-front-62feff13c8afe.webp",
+    "https://d1hv7ee95zft1i.cloudfront.net/custom/car-model-photo/original/2022-toyota-fortuner-exterior-quarter-rear-62feff13c01f7.webp",
   ],
-  bedRooms: 2,
-  bathroom: 1,
-  size: 861,
-  latitude: 51.5074,
-  longitude: -0.1278,
-  city: "London",
-  address: "1234 Broadway St",
-  school: "250m away",
-  bus: "100m away",
-  restaurant: "50m away",
+  address: "PB",
+  city: "Sta. Maria",
+  mileage: 21000,
+  transmission: "AT",
+  color: "White",
+  fuel: "Diesel",
+  latitude: 14.5995,
+  longitude: 120.9842,
+
   description:
-    "Future alike hill pull picture swim magic chain seed engineer nest outer raise bound easy poetry gain loud weigh me recognize farmer bare danger. actually put square leg vessels earth engine matter key cup indeed body film century shut place environment were stage vertical roof bottom lady function breeze darkness beside tin view local breathe carbon swam declared magnet escape has from pile apart route coffee storm someone hold space use ahead sheep jungle closely natural attached part top grain your grade trade corn salmon trouble new bend most teacher range anybody every seat fifteen eventually",
+    "Inside, the Fortuner can seat seven people, with the option to fold the third-row seats to the side in order to accommodate more cargo. The Fortuner also has the advantage of having better amenities compared to the cars it shares its platform with.",
 };
 
 export const userData = {
